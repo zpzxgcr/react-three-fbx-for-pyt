@@ -1,0 +1,20 @@
+{
+  "name": "react-three-fbx-viewer-example",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "homepage": "https://kappys1.github.io/react-three-fbx-viewer",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "^1.1.1",
+    "react-three-fbx-viewer": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
