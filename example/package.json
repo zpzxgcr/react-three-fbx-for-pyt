@@ -9,7 +9,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "^1.1.1",
-    "react-three-fbx-viewer": "*"
+    "react-three-fbx-for-pyt": "../dist"
   },
   "scripts": {
     "start": "react-scripts start",

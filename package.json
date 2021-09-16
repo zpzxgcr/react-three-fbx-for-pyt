@@ -1,6 +1,6 @@
 {
   "name": "react-three-fbx-for-pyt",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "fbx viewer with three.js for react support alpha width height",
   "author": "wly",
   "license": "MIT",
@@ -19,8 +19,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "dependencies": {
-    "three": "^0.94.0",
-    "three-fbxloader-offical": "^1.0.0",
+    "three": "^0.107.0",
     "three-orbit-controls": "^82.1.0"
   },
   "peerDependencies": {

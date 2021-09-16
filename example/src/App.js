@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import ReactThreeFbxViewer from 'react-three-fbx-viewer';
+import ReactThreeFbxViewer from 'react-three-fbx-for-pyt';
 
-let fbxUrl = require('./asd.fbx');
+let fbxUrl = require('./assert/mox/1.quanchang/quanchang.fbx');
 
 export default class App extends Component {
 	onLoad(e) {
@@ -22,8 +22,8 @@ export default class App extends Component {
 			<div>
 				<ReactThreeFbxViewer
 				alpha
-				width={200}
-				height={200}
+				width={1920}
+				height={1080}
 				cameraPosition={cameraPosition} url={fbxUrl} onLoading={this.onLoad} onError={this.onError}/>
 			</div>
 		);
