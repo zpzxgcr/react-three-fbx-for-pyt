@@ -1,6 +1,6 @@
 {
   "name": "react-three-fbx-for-pyt",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "fbx viewer with three.js for react support alpha width height",
   "author": "wly",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "repository": "https://github.com/zpzxgcr/react-three-fbx-for-pyt",
-  "homepage": "https://kappys1.github.io/react-three-fbx-viewer",
+  "homepage": "https://github.com/zpzxgcr/react-three-fbx-for-pyt",
   "scripts": {
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",

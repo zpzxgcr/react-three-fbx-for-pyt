@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import ReactThreeFbxViewer from 'react-three-fbx-for-pyt';
 
-let fbxUrl = require('./assert/mox/1.quanchang/quanchang.fbx');
+let fbxUrl = require('./asd.fbx');
 
 export default class App extends Component {
 	onLoad(e) {
@@ -22,8 +22,9 @@ export default class App extends Component {
 			<div>
 				<ReactThreeFbxViewer
 				alpha
-				width={1920}
-				height={1080}
+				enablePan
+				width={1920} disableZoom
+				height={1080} disableRotate
 				cameraPosition={cameraPosition} url={fbxUrl} onLoading={this.onLoad} onError={this.onError}/>
 			</div>
 		);

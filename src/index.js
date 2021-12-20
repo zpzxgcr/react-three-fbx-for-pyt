@@ -13,6 +13,9 @@ export default class ReactThreeVisor extends Component {
   	url: PropTypes.string,
   	backgroundColor: PropTypes.string,
   	alpha: PropTypes.boolean,
+  	disableZoom: PropTypes.boolean,
+  	disableRotate: PropTypes.boolean,
+  	enablePan: PropTypes.boolean,
   	width: PropTypes.number,
   	height: PropTypes.number,
   	cameraPosition: PropTypes.object,
@@ -152,6 +155,16 @@ export default class ReactThreeVisor extends Component {
   	);
   	this.renderer.shadowMap.enabled = true;
   	this.container.appendChild(this.renderer.domElement);
+  	if (this.props.disableZoom) {
+  		this.controls.enableZoom = false;
+  	}
+  	if (this.props.disableRotate) {
+  		this.controls.enableRotate = false;
+  	}
+  	if (this.props.enablePan) {
+  		this.controls.enablePan = false;
+  	}
+  	this.controls.update();
   	window.addEventListener('resize', this.onWindowResize.bind(this), false);
   	this.animate();
   };
